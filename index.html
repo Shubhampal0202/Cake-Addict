@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flamenco&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+</head>
+
+<body>
+ 
+    <header>
+        <nav>
+            <div class="row">
+                <img src="images/logo.png" class="logo" alt="">
+                <ul class="main-nav" id="check-class">
+                    <li><a href="#">cake delivery</a></li>
+                    <li><a href="#">how to order</a></li>
+                    <li><a href="#">check more</a></li>
+                    <li><a href="#">sign up</a></li>
+                </ul>
+                <a href="#" class="mobile-icon" onclick="slideshow()"><i class="fa fa-bars"></i></a>
+
+            </div>
+
+        </nav>
+        <div class="main-content-header">
+            <h1>
+                welcome to <span class="colorchange">thapa cafe.</span><br>house of cake lover oo yes.
+            </h1>
+            <a href="#" class="btn btn1">click to order</a>
+            <a href="#" class="btn btn2">show me more</a>
+        </div>
+    </header>
+    <script>
+        function slideshow() {
+            let x = document.getElementById('check-class');
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display ="none";
+            }
+        }
+    </script> 
+</body>
+
+
+
+</html>
